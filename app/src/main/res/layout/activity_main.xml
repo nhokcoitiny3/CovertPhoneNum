@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff "
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardElevation="4dp"
+                android:background="#74acff"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Đầu số cũ"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText,InefficientWeight,RtlCompat" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardElevation="4dp"
+                android:background="#74acff"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/u_s_m_i"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    tools:ignore="RtlCompat" />
+            </LinearLayout>
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rcv_prefix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#ffffff">
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/btn_add"
+            android:background="@drawable/bg_btn_add"
+            android:layout_margin="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/btn_add_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        tools:ignore="ObsoleteLayoutParam">
+
+        <LinearLayout
+            android:id="@+id/btn_update"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_state"
+            tools:ignore="NestedWeights">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/capnhat"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout></layout>

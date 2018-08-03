@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CovertPhoneNum</string>
+    <string name="callLog_delDialog_yes">Yes</string>
+    <string name="u_s_m_i">Đầu số mới</string>
+    <string name="capnhat">CHUYỂN ĐỔI</string>
+    <string name="nhapso">Nhập đầu số!</string>
+    <string name="socu">Cũ</string>
+    <string name="somoi">Mới</string>
+    <string name="ok">ĐỒNG Ý</string>
+    <string name="cancel">HỦY</string>
+    <string name="dausocu">Đầu số cũ</string>
+    <string name="todo">TODO</string>
+    <string name="dausomoi">Đầu số mới</string>
+</resources>
